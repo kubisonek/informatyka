@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200;300;400;500;700&display=swap");
+
+body {
+  margin: 0 0;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(24, 24, 24);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+
+  margin-bottom: 50px;
+}
+
+#nav-link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#nav-link:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.my-photo {
+  width: 250px;
+  border-radius: 50%;
+  border: solid 6px #60e65c;
+}
+
+.mini-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(52, 52, 52);
+  padding: 25px 15px 15px 15px;
+  border-radius: 20px;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+  font-size: 35px;
+  color: white;
+}
+
+.work {
+  color: white;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.social-media {
+  margin-top: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me {
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-logo {
+  padding-top: 25px;
+}
+
+.section-about-me-name {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 29px;
+  margin-top: 0;
+}
+
+.description-about-me {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 900px;
+}
+
+.description-start {
+  color: #60e65c;
+}
+
+.addon-about-me {
+  display: flex;
+  align-items: center;
+}
+
+.personal-details-wrapper {
+  float: left;
+}
+
+.personal-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.personal-details-name {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 29px;
+}
+
+.personal-question {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 40px;
+}
+
+.personal-answer {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-what {
+  color: #60e65c;
+  margin-bottom: 8px;
+}
+
+.personal-detail {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+#personal-detail-job {
+  background-color: #287f7d;
+  border-radius: 4px;
+  padding: 0px 4px;
+  width: min-content;
+
+  font-weight: 600;
+}
+
+.my-interests {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  flex-wrap: wrap;
+}
+
+.my-interests-name {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 29px;
+}
+
+#interests {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+
+  background-color: rgb(52, 52, 52);
+  margin-bottom: 15px;
+  width: 0;
+  padding: 15px 60px;
+  border-radius: 15px;
+
+  margin-right: 15px;
+}
+
+#interests img {
+  width: 24px;
+}
